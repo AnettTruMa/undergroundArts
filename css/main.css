@@ -1,0 +1,136 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+  margin-bottom: 0;
+  padding: 0:
+}
+
+nav.navbar.navbar-static-top{margin-bottom: 0px;}
+nav.navbar.sidebar{margin-bottom: 0px;}
+.carousel .carousel-inner .item{
+  max-height: 400px;
+}
+
+@media (min-width: 768px) {
+  nav.navbar.sidebar{
+    position: absolute;
+      top: 50px;
+      height: 350px;
+  }
+    /*adds border to bottom nav boxes*/
+
+    nav.sidebar .navbar-nav > li{
+        border-bottom: 1px #e5e5e5 solid;
+    }
+
+    /*allows nav box to use 100% width*/
+    nav.sidebar .navbar-collapse, nav.sidebar .container-fluid{
+        padding: 0 0px 0 0px;
+    }
+
+    /*gives sidebar width/height*/
+    nav.sidebar{
+        width: 200px;
+        height: 100%;
+        margin-left: -160px;
+        float: left;
+        z-index: 8000;
+        margin-bottom: 0px;
+    }
+
+    /*give sidebar 100% width*/
+    nav.sidebar li {
+        width: 100%;
+    }
+
+    /* Move nav to full on mouse over*/
+    nav.sidebar:hover{
+        margin-left: 0px;
+    }
+}
+
+
+/*Cartelera*/
+
+/*Ejemplo 1*/
+.ejemplo-1 img {
+transition: all 0.2s linear;
+}
+.ejemplo-1 .mascara {
+opacity: 0;
+background-color: rgba(46,157,120, 0.7);
+transition: all 0.3s ease-in-out;
+}
+.ejemplo-1 h2 {
+transform: translateX(-200px);/*Desplazamos a la izquierda*/
+opacity: 0;
+transition: all 0.7s ease-in-out;
+}
+.ejemplo-1 p {
+transform: translateX(200px);/*Desplazamos a la derecha*/
+opacity: 0;
+transition: all 0.4s linear;
+}
+.ejemplo-1 a.link{
+opacity: 0;
+transition: all 0.4s ease-in-out;
+transform: translateY(100px)/*Desplazamos para abajo*/
+}
+.ejemplo-1:hover img {
+transform: scale(1.1);/*Damos un ligero zoom a la imagen*/
+}
+.ejemplo-1:hover .mascara {
+opacity: 1;
+}
+.ejemplo-1:hover h2,
+.ejemplo-1:hover p,
+.ejemplo-1:hover a.link {
+opacity: 1;
+transform: translateX(0px);/*Regresamos a las posiciones originales*/
+}
+.ejemplo-1:hover p {
+transition-delay: 0.1s;
+}
+.ejemplo-1:hover a.link {
+transition-delay: 0.2s; /*Aplicamos un pequeño retardo para que se muestre al final*/
+transform: translateY(0px);
+}
+
+
+
+/* Estilos dom music events */
+
+.music-events-container {
+  width: 20%;
+  height: 30%;
+  background: gray;
+  color: white;
+  margin-left: 20px;}
+
+/*Estilos de formulario*/
+
+/* Menú desplegable*/
+
+/*Carrusel*/
+
+.carousel-inner > .item > img {
+  object-fit: scale-down;
+  height: 50vh;
+  width: 100%;
+}
+
+/*Footer*/
+.icons{
+  margin-left: 20vh;
+
+}
+
+.arts{
+  font-family: 'Berkshire Swash', cursive;
+}
+
+/*Contenedores de eventos*/
