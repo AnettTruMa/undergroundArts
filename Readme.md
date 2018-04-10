@@ -27,7 +27,7 @@ la información de cada evento y artista a manera de cartelera.
 
 ## Producto Final
 ### Home
-![Vista principal](./assets/imagen/home2.png)
+![Vista principal](https://raw.githubusercontent.com/AnettTruMa/undergroundArts/master/assets/imagen/home2.png)
 ### Formulario
 ![Vista principal](./assets/imagen/formulario.png)
 
