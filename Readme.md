@@ -2,7 +2,11 @@
 
 Descripción: Undergound-arts será un sitio dedicado a la difusión de eventos culturales, de artistas independientes.
 
+<<<<<<< HEAD
 ## PROCESO DE DISEÑO
+=======
+##_PROCESO DE DISEÑO_
+>>>>>>> d14222573deb5ef04e4d276d44e585da4ae4173b
 Investigación: Las encuestas realizadas muestran que el 100% de los encuestados está interesado en eventos
 culturales de artistas independientes, que un 33.3% de ellos accede a la información de esos eventos de boca
 en boca, el 8% en sitios web y el 100% en redes sociales. Y que a un 78 % de ellos, les gustaría tener acceso
