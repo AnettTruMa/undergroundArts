@@ -4,7 +4,6 @@ Descripción: Undergound-arts será un sitio dedicado a la difusión de eventos 
 
 ## PROCESO DE DISEÑO
 
-##_PROCESO DE DISEÑO_
 
 Investigación: Las encuestas realizadas muestran que el 100% de los encuestados está interesado en eventos
 culturales de artistas independientes, que un 33.3% de ellos accede a la información de esos eventos de boca
